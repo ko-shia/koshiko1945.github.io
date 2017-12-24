@@ -11,13 +11,13 @@
     "@brand-info": "#5bc0de",
     "@brand-warning": "#f0ad4e",
     "@brand-danger": "#d9534f",
-    "@body-bg": "#fff",
+    "@body-bg": "#f9f5ee",
     "@text-color": "@gray-dark",
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "underline",
     "@font-family-sans-serif": "\"源ノ明朝\",SourceHanSerif-Medium,\"Helvetica Neue\", Helvetica, Arial, sans-serif",
-    "@font-family-serif": "\"02うつくし明朝体\",UtsukushiFONT,Georgia, \"Times New Roman\", Times, serif",
+    "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
     "@font-family-monospace": "Menlo, Monaco, Consolas, \"Courier New\", monospace",
     "@font-family-base": "@font-family-sans-serif",
     "@font-size-base": "14px",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=9863f134de5a57326a025dad3a7208aa"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=ebb99e651d02d847803713d4d2653733"
 }

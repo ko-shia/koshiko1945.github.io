@@ -25,6 +25,7 @@ p #image{
 #portfolio detail {
   overflow: hidden;
   margin: 70px 0 0 30px;
+
 }
 
 #MainPhoto {
@@ -38,6 +39,12 @@ h2 {
 #sakuhinn {
   width: 425px;
   margin: 0 50px 0 50px;
+  color: #1f5290;
+}
+
+#form-text {
+  padding: 20px 0 30px 0;
+  color: #1f5290;
 }
 
 footer {
@@ -47,4 +54,5 @@ footer {
 
 footer .footer_nav {
   display: block;
+  color: #1f5290;
 }
