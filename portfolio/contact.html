@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>こしあんどっとこむ</title>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -39,53 +38,42 @@
 
 <!--フォームー-->
 
-  <div class="container">
+<div class="container" id="form">
 
-    <div class="col-xs-12">
-      <div id="form-text" class="text-center">
-        <h4>
-          <p>私への挨拶やポートフォリオサイトについてのダメ出しでも</p>
-          <p>何かございましたら下記のフォームまでご連絡ください</p>
-        </h4>
-      </div>
+  <div class="col-xs-12">
+    <div id="form-text" class="text-center">
+      <h4>
+        <p>私への挨拶やポートフォリオサイトについてのダメ出しでも</p>
+        <p>何かございましたら下記のフォームまでご連絡ください</p>
+      </h4>
+    </div>
+  </div>
+
+
+  <form class="contact-Form">
+
+    <div class="form-group">
+      <label for="InputName">お名前</label>
+      <input type="password" class="form-control" id="InputName" placeholder="お名前">
     </div>
 
 
-  <form class="form-horizontal">
-    <div class="raw">
-
-      <div class="form-group">
-        <label class="col-sm-2 control-label" for="InputName">お名前</label>
-        <div class="col-sm-5">
-          <input type="password" class="form-control" id="InputName" placeholder="お名前">
-        </div>
-        <div class="col-sm-5"></div>
-      </div>
-
-      <div class="form-group">
-        <label class="col-sm-2 control-label" for="InputEmail">メール・アドレス</label>
-        <div class="col-sm-5">
-          <input type="email" class="form-control" id="InputEmail" placeholder="メール・アドレスを入力して下さい。">
-        </div>
-        <div class="col-sm-5"></div>
-      </div>
-
-      <div class="form-group">
-        <label class="col-sm-2 control-label" for="InputTextarea">メッセージ</label>
-        <div class="col-sm-7">
-          <textarea class="form-control" rows="4" id="InputTextarea" placeholder="メッセージを入力して下さい。"></textarea>
-        </div>
-        <div class="col-sm-3"></div>
-      </div>
-
+    <div class="form-group">
+      <label for="InputEmail">メール・アドレス</label>
+      <input type="email" class="form-control" id="InputEmail" placeholder="メール・アドレスを入力して下さい">
     </div>
+
+    <div class="form-group">
+      <label for="InputTextarea">メッセージ</label>
+      <textarea class="form-control" rows="4" id="InputTextarea" placeholder="メッセージを入力して下さい"></textarea>
+    </div>
+
   </form>
 
   <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+    <div class="text-right">
       <button type="submit" class="btn btn-primary">送信</button>
     </div>
-
   </div>
 
   <div class="raw" style="height: 10px;"></div>
@@ -100,6 +88,6 @@
     </footer>
   </div>
 
-  </div>
+</div>
 </body>
 </html>
