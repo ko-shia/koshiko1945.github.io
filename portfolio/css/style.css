@@ -38,9 +38,19 @@ h2 {
 }
 
 #sakuhinn {
+   width: 425px;
+   margin: 0 50px 0 50px;
+   color: #1f5290;
+ }
+
+#about {
   width: 425px;
   margin: 0 50px 0 50px;
   color: #1f5290;
+}
+
+#about img{
+  margin: 0 30px 0 0;
 }
 
 #form-text{
