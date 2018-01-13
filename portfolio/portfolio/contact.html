@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ポートフォリオ</title>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>こしあんどっとこむ</title>
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -15,76 +14,79 @@
 </head>
 <body>
 
-<div class="container">
+<!--フッター-->
+<header>
+  <p class="logo">
+    <a href="index.html"><img src="image/kosianlogo.png" width="280" height="auto" alt="ロゴ予定地"></a>
+  </p>
 
-  <!--フッター-->
+  <!--ナビゲーションバー-->
+  <div class="container">
+    <nav class="gNagi">
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="index.html">作品</a></li>
+        <li role="presentation"><a href="about.html">私について</a></li>
+        <li role="presentation" class="active"><a href="contact.html">コンタクト</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<!--フォームー-->
+
+<div class="container" id="form">
+
   <div class="col-xs-12">
-    <header>
-      <p class="logo">
-        <a href="index.html"><img src="image/こしあんどっとこむ%E3%80%80ロゴ.png" width="280" height="auto" alt="ロゴ予定地"></a>
-      </p>
-
-      <!--ナビゲーションバー-->
-      <div class="container">
-        <nav class="gNagi">
-          <ul class="nav nav-pills">
-            <li role="presentation"><a href="index.html">作品</a></li>
-            <li role="presentation"><a href="about.html">私について</a></li>
-            <li role="presentation" class="active"><a href="contact.html">コンタクト</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div id="form-text" class="text-center">
+      <h4>
+        <p>ご閲覧ありがとうございました。</p>
+        <p>ご意見、ご感想があれば気軽にご連絡ください。</p>
+        <br>
+        <br>
+      </h4>
+    </div>
   </div>
 
-  <!--フォームー-->
 
-  <form class="form-horizontal">
+  <form class="contact-Form">
 
     <div class="form-group">
-      <label class="col-sm-2 control-label" for="InputName">お名前</label>
-      <div class="col-sm-5">
-        <input type="password" class="form-control" id="InputName" placeholder="お名前">
-      </div>
-      <div class="col-sm-5"></div>
+      <label for="InputName">お名前</label>
+      <input name="お名前" type="form-control" class="form-control" id="InputName">
+    </div>
+
+
+    <div class="form-group">
+      <label for="InputEmail">メール・アドレス</label>
+      <input name="Email" type="email" class="form-control" id="InputEmail">
     </div>
 
     <div class="form-group">
-      <label class="col-sm-2 control-label" for="InputEmail">メール・アドレス</label>
-      <div class="col-sm-5">
-        <input type="email" class="form-control" id="InputEmail" placeholder="メール・アドレスを入力して下さい。">
-      </div>
-      <div class="col-sm-5"></div>
+      <label for="InputTextarea">メッセージ</label>
+      <textarea name="メッセージ" class="form-control" rows="4" id="InputTextarea"></textarea>
     </div>
 
     <div class="form-group">
-      <label class="col-sm-2 control-label" for="InputTextarea">メッセージ</label>
-      <div class="col-sm-7">
-        <textarea class="form-control" rows="4" id="InputTextarea" placeholder="メッセージを入力して下さい。"></textarea>
+      <div class="text-right">
+        <button type="submit" class="btn btn-primary">送信</button>
       </div>
-      <div class="col-sm-3"></div>
     </div>
+
   </form>
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">送信</button>
-    </div>
-
-  </div>
-
-  <div class="raw" style="height: 10px;"></div>
-
-  <!--フッタ―-->
-  <div class="col-xs-12">
-    <footer>
-      <div class="footer_nav">
-        <small>&copy; 2017　こしあんどっとこむ</small>
-      </div>
-      <div class="raw" style="height: 30px;"></div>
-    </footer>
-  </div>
-
 </div>
+
+<div class="raw" style="height: 10px;"></div>
+
+<!--フッタ―-->
+<div class="col-xs-12">
+  <footer>
+    <div class="footer_nav">
+      <small>&copy; 2017　こしあんどっとこむ</small>
+    </div>
+    <div class="raw" style="height: 30px;"></div>
+  </footer>
+</div>
+
 </body>
 </html>
