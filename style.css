@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+header {
+  margin: 0 0 40px;
+  background-color: #1f5290;
+}
+
+header .logo {
+  float: left;
+  padding: 45px 0 0 60px;
+}
+
+header nav {
+  float: right;
+  padding: 95px 50px 30px 0;
+}
+
+nav .nav-pills {
+  font-size: 18px;
+}
+
+#waku{
+  color: #1f5290;
+}
+
+#waku h4{
+  margin-top: 35px;
+}
+
+#waku img{
+  margin: 15px 0 20px 0;
+}
+
+#portfolio detail {
+  overflow: hidden;
+  margin: 70px 0 0 30px;
+
+}
+
+#portfolio detail img{
+  width: 100%;
+}
+
+#MainPhoto {
+  margin: 0 0 0 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#sakuhinn {
+   width: 425px;
+   margin: 0 50px 0 50px;
+   color: #1f5290;
+ }
+
+#about {
+  width: 425px;
+  margin: 0 50px 0 50px;
+  color: #1f5290;
+}
+
+#about img{
+  margin: 0 15px 0 0;
+}
+
+#form-text{
+  color: #1f5290;
+}
+
+
+footer {
+  text-align: center;
+  margin: 30px 0 0;
+}
+
+footer .footer_nav {
+  display: block;
+  color: #1f5290;
+}
