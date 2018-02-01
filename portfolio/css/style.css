@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 header {
   margin: 0 0 40px;
   background-color: #1f5290;
@@ -20,14 +21,25 @@ nav .nav-pills {
 }
 
 #waku{
-  margin: 20px 20px 0 0;
   color: #1f5290;
+}
+
+#waku h4{
+  margin-top: 35px;
+}
+
+#waku img{
+  margin: 35px 0 0 0;
 }
 
 #portfolio detail {
   overflow: hidden;
   margin: 70px 0 0 30px;
 
+}
+
+#portfolio detail img{
+  width: 100%;
 }
 
 #MainPhoto {
@@ -58,14 +70,6 @@ h2 {
   color: #1f5290;
 }
 
-@media (min-width: 768px) {
-  .form-group{
-    color: #1f5290;
-    max-width: 730px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
 footer {
   text-align: center;
