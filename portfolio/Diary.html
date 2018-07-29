@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>こしあんどっとこむ</title>
+
+  <script type="text/javascript">
+      <!--
+      function showimg1() {
+          document.area1.src = "image/d_top.png";
+      }
+
+      function showimg2() {
+          document.area1.src = "image/d_select.png";
+      }
+
+      function showimg3() {
+          document.area1.src = "image/d_tokei.png";
+      }
+
+      -->
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<!--フッター-->
+<header>
+  <p class="logo">
+    <a href="index.html"><img src="image/kosianlogo.png" width="280" height="auto" alt="こしあんどっとこむ"></a>
+  </p>
+
+  <!--ナビゲーションバー-->
+  <div class="container">
+    <nav class="gNagi">
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="home.html"><span class="glyphicon glyphicon-home"></span></a>
+        </li>
+        <li role="presentation" class="active"><a href="index.html">作品</a></li>
+        <li role="presentation"><a href="about.html">私について</a></li>
+        <li role="presentation"><a href="contact.html">コンタクト</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!--コンテンツ-->
+
+<div class="container">
+
+  <div id="portfolio detail">
+    <div class="col-md-6 col-xs-12">
+      <p class="text-center">
+        <br>
+
+        <img src="image/d_top.png" width="auto" height="400" name="area1"><br><br>
+
+        <button type="submit" class="img-thumbnail">
+          <img src="image/d_top.png" onclick="showimg1()" value="画像1" width="40" height="auto">
+        </button>
+        　
+        <button type="submit" class="img-thumbnail">
+          <img src="image/d_select.png" onclick="showimg2()" value="画像2" width="40" height="auto">
+        </button>
+        　
+        <button type="submit" class="img-thumbnail">
+          <img src="image/d_tokei.png" onclick="showimg3()" value="画像3" width="40" height="auto">
+        </button>
+
+      </p>
+
+    </div>
+
+    <div class="col-md-6 col-xs-12">
+      <div class="pull-center">
+        <div id="sakuhinn">
+          <br><br>
+          <h3>Moment Diary</h3><br>
+          <dl>
+            <dt><h4>制作期間</h4></dt>
+            <dd>2018年7月</dd>
+          </dl>
+          <dl>
+            <dt><h4>使用ソフト</h4></dt>
+            <dd>AdobeXD</dd>
+          </dl>
+          <p>毎日続けられるように簡単な記入方法で日記が付けられるアプリのデザインを作りました</p>
+          <p>デザインをシンプルにしてだれでも使えるように心がけました</p>
+          <p>画面をたくさん作ったのが大変でした</p>
+          <br>
+          <p class="text-right">
+            <a class="btn btn-default"
+               href="https://xd.adobe.com/view/f65a3472-1215-4e5f-6618-b90937b422cc-806b/"
+               target="_blank">
+              プロトタイプの閲覧はこちら</a>
+          </p>
+
+
+          <p class="text-right">
+            <a class="btn btn-primary" href="index.html">作品ページに戻る</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="raw" style="height: 10px;"></div>
+
+  <!--フッタ―-->
+  <div class="col-xs-12">
+    <footer>
+      <div class="footer_nav">
+        <small>&copy; 2017　こしあんどっとこむ</small>
+      </div>
+      <div class="raw" style="height: 30px;"></div>
+    </footer>
+  </div>
+
+</div>
+
+
+</body>
+</html>
